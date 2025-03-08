@@ -1,31 +1,23 @@
-/* src/components/Dashboard.css */
-
-.dashboard {
-  padding: 20px;
-}
-
-.dashboard-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+.dashboard-container {
+  text-align: center;
 }
 
 .add-movie-button {
-  padding: 10px 20px;
   background-color: #007bff;
   color: white;
+  padding: 10px 15px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .add-movie-button:hover {
   background-color: #0056b3;
 }
 
-.movie-list {
+.movies-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 20px;
+  justify-content: center;
 }
